@@ -1,0 +1,480 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width: 1000px) {
+    .header .header_content .navgation ul li {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header .navgation {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .pc {
+        display: none!important;
+    }
+    .sp {
+        display: block!important;
+    }
+p{
+    font-size: 4vw;
+    line-height: 7vw!important;
+    
+}
+h3{
+    font-size: 5.5vw;
+}
+h4, h5{
+    letter-spacing: 0.2vw;
+}
+h6{
+    font-size: 4.5vw;
+    font-weight: normal;
+}
+
+/* header */
+.header .header_content{
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+}
+.overlay-content ul li a{
+    color: white;
+}
+.logo a img {
+    width: 45%;
+}
+.logo p{
+    font-size: 3vw;
+    line-height: 3vw!important;
+}
+.header_entry{
+    font-size: 3vw;
+}
+.menu_btn .container{
+    padding: 0 0 0 20%;
+}
+
+.overlay{
+    width: 100%!important;
+}
+.hamburger-header{
+    padding: 0 3% 0 0;
+}
+.hamburger{
+    padding: 2% 0 5% 7%;
+}
+.hamburger a{
+    align-items: flex-end;
+}
+.hamburger a p{
+    font-size: 3vw;
+    line-height: 3vw!important;
+}
+.hamburger_entry a{
+    font-size: 3vw;
+}
+.overlay-content ul.main-menu li{
+    padding: 5% 3%;
+}
+.overlay-content ul.main-menu li a{
+    font-size: 3.5vw!important;
+}
+.sub-menu li a{
+    font-size: 3vw!important;
+}
+.overlay-content ul.main-menu{
+    margin: 5% 7% 5% 7%;
+}
+
+.overlay-content p{
+    font-size: 2vw;
+}
+
+/* top banner section */
+.top-banner{
+    padding: 27% 0;
+}
+.top-banner h2{
+    font-size: 6vw;
+    line-height: 9vw;
+}
+.small{
+    font-size: 4vw;
+}
+
+/* slogan section */
+.slogan{
+    padding: 10% 0;
+}
+.brand{
+    width: 50%;
+}
+
+.slogan p{
+    font-size: 3vw;
+}
+.slogan h4{
+    font-size: 7vw;
+}
+.more{
+    width: 15%;
+}
+.slogan-content{
+    font-size: 4vw!important;
+}
+
+/* know section */
+.know{
+    padding: 10% 0 0;
+    display: block; 
+}
+.know-content{
+    width: 100%;
+}
+.know-title{
+    justify-content: center;
+}
+.know-title h4{
+    font-size: 5vw;
+}
+.know-content p{
+    font-size: 4vw;
+    text-align: center;
+}
+.intro-img{
+    width: 100%;
+}
+.more-right{
+    margin: 0 auto 5%;
+    width: 15%;
+}
+
+/* works section */
+.works{
+    padding: 5% 7%;
+    display: block;
+}
+.work-box{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin: 10% 0;
+}
+.work-box img{
+    width: 45%;
+}
+.work-content{
+    width: 50%;
+    margin: 0 0 0 5%;
+    padding: 0 0 0 3%;
+}
+.work-content h5{
+    font-size: 4vw;
+    font-weight: normal;
+}
+.work-content p{
+    font-size: 2vw;
+    line-height: 3vw!important;
+}
+
+/* depart section */
+.depart{
+    padding: 10% 0;
+}
+.depart-content{
+    left: 10%;
+    top: 45%;
+}
+.depart-content h4{
+    font-size: 5vw;
+}
+
+/* contents section */
+.contents{
+    padding: 10% 0;
+    display: block;
+}
+.number, .support{
+    width: 100%;
+}
+.number-content{
+    display: flex;
+    align-items: center;
+    left: 18%; 
+}
+.number-content img{
+    width: 40%;
+}
+.number-content h5{
+    font-size: 5vw;
+    font-weight: normal;
+}
+.support-content h5{
+    font-size: 5vw;
+    font-weight: normal;
+}
+.number a, .support a{
+    display: flex;
+}
+
+/* recruit section */
+.recruit img{
+    width: 100%;
+}
+.recruit{
+    display: block;
+}
+.recruit-content{
+    padding: 10% 0;
+    width: 100%;
+    text-align: center;
+}
+.recruit-content h5{
+    padding: 0;
+    font-size: 6vw;
+}
+.recruit-links{
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recruit-content a{
+    font-size: 4vw;
+    padding: 3% 8%;
+}
+
+/* footer section */
+footer{
+    padding: 10% 0 0;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-logo a{
+    display: block;
+}
+.footer-logo a img{
+    width: 40%;
+}
+.footer-logo a p{
+    text-align: center;
+    margin: 3% 0 5%;
+    font-size: 4vw;
+}
+.copyright{
+    font-size: 3vw;
+}
+
+
+
+/* recruit new page */
+.recruit-new .top-banner{
+   padding: 14% 0; 
+}
+.recruit-new .top-banner h2{
+    font-size: 5vw;
+    letter-spacing: 1vw;
+}
+.recruit-new .top-banner h2 span{
+    font-size: 5vw;
+    padding: 1% 2% 1% 4%; 
+}
+.recruit-new .recruit-body{
+    padding: 0;
+}
+.recruit-title{
+    padding: 10% 5%;
+}
+.recruit-title h6{
+    font-size: 4vw;
+}
+.recruit-title h3{
+    padding: 3% 20%;
+    font-size: 5vw;
+    font-weight: normal;
+}
+.recruit-new .recruit-title h3{
+    padding: 3% 20%;
+    font-size: 5vw;
+    font-weight: normal;
+}
+.recruit-old .recruit-title h3{
+    padding: 3% 15%;
+    font-size: 5vw;
+    font-weight: normal;
+}
+.recruit-title p{
+    font-size: 4vw;
+}
+.recruit-new-tb{
+    padding: 0 5%;
+}
+.recruit-link{
+    padding: 10% 0;
+}
+.recruit-link a{
+    font-size: 4vw;
+}
+.recruit-link a img{
+    width: 40%;
+}
+
+/* recruit old page */
+.recruit-old .top-banner{
+   padding: 14% 0; 
+}
+.recruit-old .top-banner h2{
+    font-size: 5vw;
+    letter-spacing: 1vw;
+}
+.recruit-old .top-banner h2 span{
+    font-size: 5vw;
+    padding: 1% 2% 1% 4%; 
+}
+.recruit-old-tb{
+    padding: 0 5%;
+}
+.recruit-old .recruit-body{
+    padding: 0;
+}
+
+/* welfare page */
+
+.welfare .top-banner{
+   padding: 14% 0; 
+}
+.welfare .top-banner h2{
+    font-size: 5vw;
+    letter-spacing: 1vw;
+}
+.welfare-contents{
+    padding: 10% 5%;
+}
+.welfare-title h3{
+    font-size: 5vw;
+}
+.welfare-title p{
+    font-size: 3.5vw;
+}
+.stair{
+    width: 100%;
+}
+.welfare-content{
+    margin-top: -27%;
+    margin-top: -27%;
+    padding-top: 20%;
+}
+.welfare-intro{
+    padding: 5% 0;
+}
+.welfare-inner{
+    padding: 10% 5%;
+}
+.welfare-box{
+    width: calc( 42% - 4vw );
+}
+.welfare-box p{
+    margin: 2% 0;
+    line-height: 5vw!important;
+    font-size: 3.5vw;
+}
+.welfare-box img{
+    width: 40%;
+}
+.welfare-box:nth-child(1) img, .welfare-box:nth-child(5) img, .welfare-box:nth-child(6) img, .welfare-box:nth-child(7) img{
+    width: 40%;
+    margin: 15% 0 0;
+}
+.welfare-box:nth-child(1) p{
+    margin: 17% 0;
+}
+.welfare-box:nth-child(5) p, .welfare-box:nth-child(6) p{
+    margin: 19% 0;
+}
+.welfare-box:nth-child(7) p{
+    margin: 18% 0;
+}
+.welfare-box:nth-child(8) img {
+    width: 40%;
+    margin: 12% 0 8%;
+}
+.welfare-box:nth-child(2) img{
+    width: 50%;
+    margin: 15% 0 10%;
+}
+.welfare-box:nth-child(4) img{
+    width: 40%;
+    margin: 12% 0 9%;
+}
+.welfare-box:nth-child(4) p{
+    margin: 0% 0 7%;
+}
+.welfare-box:nth-child(3) img{
+    width: 35%;
+    margin: 15% 0 5%;
+}
+
+/* gadge page */
+.gadge-content{
+    padding: 15% 0;
+}
+.gadge-box h4{
+    font-size: 6vw;
+    font-weight: bold;
+}
+.gadge-box p{font-size: 4vw}
+.gadge-box{
+    margin: 0 5%;
+}
+.asahi-link{
+    margin: 0 0 20% 0;
+}
+.asahi-link a img{
+    width: 80%;
+}
+.engage-link a img{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+
+
+}
+
+
+
+
